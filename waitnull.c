@@ -20,5 +20,5 @@ int main(int argc, char **argv) {
 		perror("fork");
 		exit(1);
 	}
-	exit(0);
+	exit(0);       
 }
