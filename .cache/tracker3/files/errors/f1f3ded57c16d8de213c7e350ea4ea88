@@ -1,0 +1,4 @@
+[Report]
+Uri=file:///home/elzyraaaaa/helloworld.c
+Message=Subject `file:///home/elzyraaaaa/helloworld.c' is not in domain `nie:DataObject' of property `nie:interpretedAs'
+Sparql=INSERT DATA {  GRAPH tracker:FileSystem {    <file:///home/elzyraaaaa/helloworld.c> tracker:extractorHash "(null)" .  }}; INSERT DATA {\n<file:///home/elzyraaaaa/helloworld.c> nie:interpretedAs _:1 .\n_:1 nie:mimeType "text/x-csrc" ; \n  nie:isStoredAs <file:///home/elzyraaaaa/helloworld.c> .\n};\n
